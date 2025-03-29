@@ -110,7 +110,7 @@ button {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-/* Section 1 */
+/* Section 2 */
 
 .benefits-subtitle {
   font-weight: 500;
@@ -128,10 +128,10 @@ button {
   color: #434455;
 }
 
-/* Section 2  */
+/* Section 3  */
 
 .team-section {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .team-title {
   text-transform: capitalize;
@@ -156,7 +156,7 @@ button {
 .section-text {
 }
 
-/* /Section 2 */
+/* /Section 3 */
 
 .section-title {
   font-size: 36px;
@@ -185,7 +185,6 @@ button {
 /* Portfolio */
 
 .portfolio-section {
-  background-color: #f4f4fd;
 }
 .portfolio-title {
   text-transform: capitalize;
