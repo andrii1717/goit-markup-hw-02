@@ -35,7 +35,11 @@ button {
 .header-menu-list {
 }
 
-.header-menu-item {
+.header-menu-item:hover {
+  color: #404bbf;
+}
+.header-menu-item:focus {
+  color: #404bbf;
 }
 
 .header-menu-link {
@@ -80,7 +84,6 @@ button {
 .black-logo {
   color: #2e2f42;
 }
-
 /* section hero */
 
 .hero {
@@ -105,6 +108,13 @@ button {
   background-color: #4d5ae5;
 }
 
+.hero-btn:hover {
+  color: #404bbf;
+}
+
+.hero-btn:focus {
+  color: #404bbf;
+}
 /* Section 1 */
 
 .benefits-subtitle {
@@ -126,14 +136,13 @@ button {
 /* Section 2  */
 
 .team-section {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 .team-title {
 }
 .section-title {
 }
 .team-list {
-  background-color: #ffffff;
 }
 .team-item {
 }
@@ -158,6 +167,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .section-subtitle {
@@ -188,7 +198,7 @@ button {
 }
 .portfolio-subtitle {
 }
-.potfolio-text {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -203,6 +213,9 @@ button {
 }
 .logo {
   text-decoration: none;
+}
+.footer-logo {
+  color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;
