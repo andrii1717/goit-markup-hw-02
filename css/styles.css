@@ -35,10 +35,8 @@ button {
 .header-menu-list {
 }
 
-.header-menu-item:hover {
-  color: #404bbf;
-}
-.header-menu-item:focus {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: #404bbf;
 }
 
@@ -108,12 +106,9 @@ button {
   background-color: #4d5ae5;
 }
 
-.hero-btn:hover {
-  color: #404bbf;
-}
-
+.hero-btn:hover,
 .hero-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 /* Section 1 */
 
@@ -139,12 +134,14 @@ button {
   background-color: #ffffff;
 }
 .team-title {
+  text-transform: capitalize;
 }
 .section-title {
 }
 .team-list {
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-img {
 }
@@ -167,7 +164,6 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
 }
 
 .section-subtitle {
@@ -191,6 +187,7 @@ button {
 .portfolio-section {
 }
 .portfolio-title {
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
