@@ -185,6 +185,7 @@ button {
 /* Portfolio */
 
 .portfolio-section {
+  background-color: #f4f4fd;
 }
 .portfolio-title {
   text-transform: capitalize;
